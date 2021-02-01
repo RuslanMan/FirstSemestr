@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ROOT">
+    <output-path>$PROJECT_DIR$/out/artifacts/ROOT</output-path>
+    <root id="archive" name="ROOT.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sem-work" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.18" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.30" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.4.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.3" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="sem-work/web/Web" />
+    </root>
+  </artifact>
+</component>
